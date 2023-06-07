@@ -1,0 +1,92 @@
+/* Changes the whole html format */
+*{
+    
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Changes the title format */
+title{
+    color:powderblue;
+    font-size: 55px;
+}
+/* Changes format which has h1 tag */
+h1{
+    color:powderblue;
+    font-size: 55px;
+}
+/* Changes format of body tag */
+body{
+    background: url(https://img.wallpapersafari.com/desktop/1366/768/75/66/1UNKth.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* Changes format of id having heading */
+#heading{
+    margin-bottom: 70px;
+}
+/* Changes format of class having container */
+.container{
+    padding: 20px 70px;
+    color:#fff;
+}
+/* Changes format of class having date-time */
+.date-time{
+    font-weight: 100;
+    border: 4px solid lightskyblue;
+    border-radius: 10px;
+    margin:15px;
+    color:whitesmoke;
+} 
+/* Changes format of class having time */
+.time{
+    font-size: 85px;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+/* Changes format of class having date */
+.date{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+/* Changes format of class having city */
+.city{
+    padding: 25px;
+    color:whitesmoke;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+    border:solid 4px lightblue ;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* Changes format of id having condition */
+#condition{
+    font-size: 40px;
+    margin-bottom: 25px;
+    color:powderblue;
+}
+/* Changes format of class having weather-condition */
+.weather-condition{
+    display:inline-block;
+    border:solid blue 6px;
+    margin-bottom: 30px;
+    background-color:deepskyblue;
+}
+/* Changes format of class having other */
+.others {
+    background: rgb(10, 3, 43);
+    color:wheat;    
+    padding:20px;
+    border-radius: 10px;
+    margin: 15px ;
+    border: 5px solid greenyellow;
+    font-size: 19px;
+    margin-bottom:40px;
+    display: block;
+}
+/* Changes format of class having weather-item */
+.weather-item{
+    display: inline-block;
+}

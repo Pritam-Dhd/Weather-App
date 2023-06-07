@@ -1,0 +1,59 @@
+<!Doctype html> 
+<Html lang="en">
+    <head>
+        <link rel="shortcut icon" href="#">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="heading">Weather Forecast</title>
+        <h1>Weather Forecast</h1>
+        <!-- Connecting Css file -->
+        <link rel="stylesheet" href="Pritam_2226153.css"> 
+    </head>
+    <body>
+        <!-- Creating different division for different information with class and id -->
+        <div class="city">
+            <div class="time-zone" id="time-zone"></div>
+            <div class="time-zone" id="latitude"></div>
+            <div class="time-zone" id="longitude"></div>
+        </div>
+        <div class="contain">
+            <div class="current-info">
+                <div class="date-time">
+                    <div class="time" id="time"></div>
+                    <div class="date" id="date"></div>
+                    <div id="condition"></div>
+                    <div class="weather-condition" id="weather-condition">
+                        <img src="" alr="weather-picture" width="100px" height="100px">
+                    </div>
+                    <div class="others" id="current-weather-items">
+                        <div class="weather-item">
+                            <p id="humidity"></p>
+                        </div>
+                        <hr color="white" size="5px" width="100%">
+                        <div class="weather-item">
+                            <p id="pressure"></p>
+                        </div>
+                        <hr color="white" size="5px" width="100%">
+                        <div class="weather-item">
+                            <p id="speed"></p>
+                            <hr color="white" size="5px" width="100%">
+                            <p id="direction"></p>
+                        </div>
+                        <hr color="white" size="5px" width="100%">
+                        <div class="weather-item">
+                            <p id="temp"></p>
+                        </div>
+                        <hr color="white" size="5px" width="100%">
+                        <div class="weather-item">
+                            <p id="sunrise"></p>
+                        </div>
+                        <hr color="white" size="5px" width="100%">
+                        <div class="weather-item">
+                            <p id="sunset"></p>
+                        </div>
+                    </div>
+                </div>
+            <!-- Connecting javascript file -->
+            <script type="text/javascript" src="Pritam.js"></script>
+    </body>
+</Html>
